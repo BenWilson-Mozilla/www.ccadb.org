@@ -29,9 +29,11 @@ All client devices that are used to download Personally Identifiable Information
 CA Owners must provide the following information for a Primary Point of Contact (POC), and at least one other POC, who may or may not be a Primary POC:
 
 * Name
-* Office email address
+* Direct office email address (not a distribution list)
 
-CA Owners may optionally designate further POCs, supplying an email address for each. CA Owners must also supply at least one non-personal contact email aliases which are more likely to continue working as personnel change; these are maintained as part of the CA’s organizational entry.
+CA Owners may optionally designate further POCs, supplying an email address for each. 
+
+CA Owners must supply at least one non-personal contact email alias (also known as a "CA Alias" or "distribution list email address") that is more likely to continue working as personnel change. Distribution list email addresses are maintained as part of the CA Owner’s organizational entry.
 
 All Primary POCs should be authorized to speak for and enter into binding commitments on behalf of the CA(s) that they represent. The Primary POC will be issued a [CA Community license](https://www.ccadb.org/cas/request-access#application-for-ccadb-access) and may request additional licenses for other Primary POCs. Primary POCs are responsible for keeping CCADB data accurate for their CA(s).
 
