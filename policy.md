@@ -70,8 +70,10 @@ URLs for the following documents are required for each certificate, unless the e
 * CP
 * CPS
 * Standard audit (WebTrust or ETSI)
-* Baseline Requirements (BR) audit (if the certificate is capable of issuing TLS/SSL server certificates)
-* Extended Validation (EV) SSL and/or Code Signing audit (if applicable)
+* TLS Baseline Requirements (BR) audit (WebTrust or ETSI) if the certificate is capable of issuing TLS/SSL server certificates
+* Extended Validation (EV) (WebTrust or ETSI), if applicable
+* Code Signing audit (WebTrust or ETSI), if applicable
+* S/MIME BR audit (WebTrust or ETSI), if applicable
 
 Exceptions to providing audit information:
 
