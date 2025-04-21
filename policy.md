@@ -133,7 +133,7 @@ Before corresponding policy changes are put into practice, CA Owners:
 
 CA Owners MUST:
 - submit an [Add/Update Root Request Case](https://www.ccadb.org/cas/updates) to add or update policy documents for root CA certificates stored in the CCADB.
-- add or update  policy documents for subordinate CA certificates directly on the record in CCADB (unless the exceptions stated above apply).
+- add or update  policy documents for subordinate CA certificates directly on the record in CCADB (unless the exceptions stated below apply).
 
 Unless the exceptions below apply, CA policy disclosures for each certificate disclosed to the CCADB MUST be consistent with the following guidance:
 
@@ -168,7 +168,7 @@ Exceptions to providing these policy document URLs:
 
 Beyond policy disclosures, CCADB also enables associating statements of attestation of CA Owner conformance to various requirements and other operational criteria ("audits").
 
-The URLs to such audit statements and any metadata about them such as the name of the auditor or the date of the audit, MUST be updated as new information becomes available. For technical reasons, URLs to audit statements MUST point to a PDF file that conforms to Audit Letter Validation (ALV) and either WebTrust or Accredited Conformity Assessment Bodies’ Council (ACAB'c) formatting standards.
+The URLs to such audit statements and any metadata about them such as the name of the auditor or the date of the audit MUST be updated as new information becomes available. For technical reasons, URLs to audit statements MUST point to a PDF file that conforms to Audit Letter Validation (ALV) and either WebTrust or Accredited Conformity Assessment Bodies’ Council (ACAB'c) formatting standards.
 
 The entry for each subordinate CA certificate has checkboxes to indicate "Audits Same as Parent". When the checkbox is checked, the details do not need to be duplicated from the parent certificate. However, the subordinate CA certificate MUST be specifically listed in the audit statements of the parent certificate.
 
