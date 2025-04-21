@@ -106,7 +106,7 @@ CA Owners MUST disclose:
 
 CA certificates created by cross-signing are considered subordinate CA certificates by Root Store Operators and MUST be disclosed to both the issuer and subject CA Owner PKI hierarchies in the CCADB. 
 
-For any revoked subordinate CA certificate, each corresponding revocation entry published to a CRL MUST include a reasonCode extension. If the revocation is due to a security concern, the CA Owner MUST file a secure (i.e., "confidential") [Incident Report](https://www.ccadb.org/cas/incident-report) in Bugzilla, with the expectation that a public Incident Report will eventually being filed.
+For any revoked subordinate CA certificate, each corresponding revocation entry published to a CRL MUST include a reasonCode extension. If the revocation is due to a security concern, the CA Owner MUST file a secure (i.e., "confidential") [Incident Report](https://www.ccadb.org/cas/incident-report) in Bugzilla, with the expectation that a public Incident Report will eventually be filed.
 
 ## 4. Policy Disclosures
 
