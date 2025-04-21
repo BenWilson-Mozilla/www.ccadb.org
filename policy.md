@@ -287,7 +287,8 @@ ALV supports the following format for specifying audit period date ranges:
 
 <br>
 ```<date><space><splitter><space><date>```
-<br>
+<br><br>
+    
 Where splitter MUST be one of the following:
 * to
 * through
