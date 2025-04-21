@@ -118,7 +118,7 @@ CA Owners with either (1) a certificate included in a Root Store or (2) a CA cer
 - ensure the CA policy documents are:
     - freely publicly available for examination.
     - available in an authoritative English language version.
-    - sufficiently detailed to assess the operations of the CA(s) and their compliance with the expectations set forth in this Policy, the applicable CA/Browser Forum Baseline Requirements, and any applicable Root Store Operator policies, and MUST NOT conflict with any of the requirements specified therein.
+    - sufficiently detailed to assess the operations of the CA(s) and the compliance with the expectations set forth in this Policy, the applicable CA/Browser Forum Baseline Requirements, and any applicable Root Store Operator policies, and MUST NOT conflict with any of the requirements specified therein.
 
 To promote simplicity and clarity, all CA policy documents SHOULD be:
 - focused on one specific PKI use case (e.g., TLS server authentication, TLS client authentication, S/MIME, Code Signing, etc.), rather than combining multiple use cases into a single document or set of documents.
