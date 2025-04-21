@@ -184,6 +184,8 @@ Sensitive security incidents and vulnerabilities can be reported in Bugzilla by 
 
 **Make sure you check the box beneath the "Security" heading that reads "_Many users could be harmed by this security problem: it should be kept hidden from the public until it is resolved._"**
 
+When opening a security-sensitive incident in Bugzilla email incident-reporting [at] ccadb [dot] org and add the same address to the report's CC list.
+
 Following the submission of a security-sensitive incident in Bugzilla, the corresponding CA Owner MUST file a public incident report once they have determined that the associated security risk is closed.
 
 #### How are reports scoped?
