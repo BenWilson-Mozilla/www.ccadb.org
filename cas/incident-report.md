@@ -4,7 +4,8 @@
 
 |Version|Effective Date|
 |-|-|
-|3.0 (current)|March 1, 2025| 
+|3.1 (current)|June  1, 2025| 
+|[3.0](https://github.com/mozilla/www.ccadb.org/blob/master/incident_archive/ir_version_3_0.md)|March 1, 2025| 
 |[2.0](https://github.com/mozilla/www.ccadb.org/blob/master/incident_archive/ir_version_2_0.md)|October 17, 2023| 
 |[1.0](https://github.com/mozilla/www.ccadb.org/blob/master/incident_archive/ir_version_1_0.md)|February 15, 2023|
 
@@ -36,6 +37,7 @@ Unless otherwise stated, "certificate" on this page refers to a final certificat
 
 [**Report lifecycle management**](#report-lifecycle-management)
 - [How do I submit a report?](#how-do-i-submit-a-report)
+- [How do I submit a security-sensitive incident report?](#how-do-i-submit-a-security-sensitive-incident-report)
 - [How are reports scoped?](#how-are-reports-scoped)
 - [What format is used?](#what-format-is-used)
 - [When are reports expected?](#when-are-reports-expected)
@@ -174,6 +176,12 @@ Create a new Bugzilla issue by filling out [this form](https://bugzilla.mozilla.
 - The "Summary" field in Bugzilla (i.e., "Subject line") MUST begin with the CA Owner’s name, followed by a colon, and a brief title that highlights the type of incident being reported (e.g., "EXAMPLE CA OWNER: Incorrect Subject RDN Encoding"). The CA Owner's name SHOULD match exactly with the CA Owner value in the CCADB.
 - The "Description" field MAY contain a Preliminary or Full Incident Report (copied and pasted from the corresponding Markdown template, as explained [below](#report-templates)).
 
+#### How do I submit a security-sensitive incident report?
+
+Sensitive security incidents and vulnerabilities can be reported in Bugzilla, with the expectation that a public incident report will eventually be filed, by filling out [this form](https://bugzilla.mozilla.org/enter_bug.cgi?format=__default__&product=CA%20Program&component=CA%20Security%20Vulnerability&bug_type=task).
+
+**Make sure you check the box beneath the "Security" heading that reads "_Many users could be harmed by this security problem: it should be kept hidden from the public until it is resolved._"**
+
 #### How are reports scoped?
 
 There SHOULD be a single Incident Report for each distinct matter, and CA Owners MUST submit an additional, separate Incident Report when:
@@ -228,7 +236,7 @@ In the case of Incident Reports with a Whiteboard field of "revocation-delay", r
 
 #### How are reports closed?
 
-When all Action Items are complete and no outstanding comments or questions remain, CA Owners MUST request closure in a Bugzilla comment using the template [below](#incident-closure-summary). Upon doing so, a final call for comments will be made by a Bugzilla moderator, and the report will be closed accordingly.
+When all Action Items are complete and no outstanding comments or questions remain, CA Owners MUST (1) request closure in a Bugzilla comment using the template [below](#incident-closure-summary) and (2) select the "Request information from" checkbox and add incident-reporting [at] ccadb [dot] org. Upon doing so, a final call for comments will be made by a Bugzilla moderator, and the report will be closed accordingly.
 
 ### Report Templates
 
