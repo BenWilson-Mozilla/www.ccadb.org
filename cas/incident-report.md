@@ -178,7 +178,9 @@ Create a new Bugzilla issue by filling out [this form](https://bugzilla.mozilla.
 
 #### How do I submit a security-sensitive incident report?
 
-Sensitive security incidents and vulnerabilities can be reported in Bugzilla, with the expectation that a public incident report will eventually be filed, by filling out [this form](https://bugzilla.mozilla.org/enter_bug.cgi?format=__default__&product=CA%20Program&component=CA%20Security%20Vulnerability&bug_type=task).
+For additional context on what might be considered a "security-sensitive" incident, see [here](https://wiki.mozilla.org/CA/Vulnerability_Disclosure?_gl=1*nanm10*_ga*MTA5MDA3NTI1OC4xNzEzMTg0NjA2*_ga_MQ7767QQQW*MTc0NDk5OTkzOC4yMC4wLjE3NDQ5OTk5MzguMC4wLjA).
+
+Sensitive security incidents and vulnerabilities can be reported in Bugzilla, **with the expectation that a public incident report will eventually be filed**, by filling out [this form](https://bugzilla.mozilla.org/enter_bug.cgi?format=__default__&product=CA%20Program&component=CA%20Security%20Vulnerability&bug_type=task).
 
 **Make sure you check the box beneath the "Security" heading that reads "_Many users could be harmed by this security problem: it should be kept hidden from the public until it is resolved._"**
 
