@@ -178,13 +178,13 @@ Create a new Bugzilla issue by filling out [this form](https://bugzilla.mozilla.
 
 #### How do I submit a security-sensitive incident report?
 
-For additional context on what might be considered a "security-sensitive" incident, see [here](https://wiki.mozilla.org/CA/Vulnerability_Disclosure?_gl=1*nanm10*_ga*MTA5MDA3NTI1OC4xNzEzMTg0NjA2*_ga_MQ7767QQQW*MTc0NDk5OTkzOC4yMC4wLjE3NDQ5OTk5MzguMC4wLjA).
+For additional context on what might be considered a "security-sensitive" incident, see [here](https://wiki.mozilla.org/CA/Vulnerability_Disclosure).
 
-Sensitive security incidents and vulnerabilities can be reported in Bugzilla by filling out [this form](https://bugzilla.mozilla.org/enter_bug.cgi?format=__default__&product=CA%20Program&component=CA%20Security%20Vulnerability&bug_type=task).
+Sensitive security incidents and vulnerabilities can be reported in Bugzilla by filling out [this form](https://bugzilla.mozilla.org/enter_bug.cgi?bug_type=task&component=CA%20Security%20Vulnerability&groups=ca-program-security&product=CA%20Program). Under the heading "People", be sure to add incident-reporting [at] ccadb [dot] org to the report's CC list.
 
-**Make sure you check the box beneath the "Security" heading that reads "_Many users could be harmed by this security problem: it should be kept hidden from the public until it is resolved._"**
+_**Under the heading "Security", make sure that the "CA Program Security" checkbox is ticked -- leaving all security boxes unchecked makes it a public bug.**_
 
-When opening a security-sensitive incident in Bugzilla email incident-reporting [at] ccadb [dot] org and add the same address to the report's CC list.
+After opening a security-sensitive incident in Bugzilla, also email incident-reporting [at] ccadb [dot] org.
 
 Following the submission of a security-sensitive incident in Bugzilla, the corresponding CA Owner MUST file a public incident report once they have determined that the associated security risk is closed.
 
